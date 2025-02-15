@@ -7,4 +7,6 @@ torch
 transformers
 pillow
 pytesseract
-sentence-transformers
+beautifulsoup4
+speechrecognition
+markdown

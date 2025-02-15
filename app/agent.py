@@ -4,7 +4,6 @@ from app.utils.file_utils import write_log
 
 class Agent:
     def __init__(self):
-        # Map task codes to module paths
         self.task_mapping = {
             "A1": "app.tasks.task_a1",
             "A2": "app.tasks.task_a2",
@@ -16,6 +15,14 @@ class Agent:
             "A8": "app.tasks.task_a8",
             "A9": "app.tasks.task_a9",
             "A10": "app.tasks.task_a10",
+            "B3": "app.tasks.task_b3",
+            "B4": "app.tasks.task_b4",
+            "B5": "app.tasks.task_b5",
+            "B6": "app.tasks.task_b6",
+            "B7": "app.tasks.task_b7",
+            "B8": "app.tasks.task_b8",
+            "B9": "app.tasks.task_b9",
+            "B10": "app.tasks.task_b10",
         }
 
     def run_task(self, task_description: str) -> str:
