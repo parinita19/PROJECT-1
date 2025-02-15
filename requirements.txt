@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+requests
+httpx
+pydantic
+torch
+transformers
+pillow
+pytesseract
+sentence-transformers
